@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/YoutubeMusicApp.iml" filepath="$PROJECT_DIR$/.idea/YoutubeMusicApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YoutubeMusicClone.iml" filepath="$PROJECT_DIR$/.idea/modules/YoutubeMusicClone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/YoutubeMusicClone.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/YoutubeMusicClone.app.iml" />
     </modules>
   </component>
 </project>
