@@ -6,6 +6,16 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
+<<<<<<< HEAD
     <color name="white">#121010</color>
     <color name="dark_black">#F7040404</color>
+=======
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="background_black">#282828</color>
+
+    <color name="gray">#282828</color>
+
+
+>>>>>>> 616a038769ee0c2d08439dcb1f050841ec8ae91a
 </resources>

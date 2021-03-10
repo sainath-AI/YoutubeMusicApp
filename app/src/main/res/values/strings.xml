@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">YoutubeMusicClone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="commute">Commute</string>
+    <string name="relax">Relax</string>
+    <string name="focus">Focus</string>
+    <string name="workout">Workout</string>
+    <string name="music">Music</string>
+    <string name="upgrade">upgarde</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="music_premium1">Get Music Premium to listen ad-free,</string>
+    <string name="music_premium2"><![CDATA[offline & with your screen off]]></string>
+    <string name="youtube_music">YouTube Music</string>
 </resources>
