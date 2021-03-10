@@ -95,4 +95,8 @@
     <dimen name="sp_95sp">95sp</dimen>
     <dimen name="sp_100sp">100sp</dimen>
 
+    <dimen name="dp_0">0dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
 </resources>
