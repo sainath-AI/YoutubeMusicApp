@@ -23,9 +23,6 @@ public class LibraryPage extends AppCompatActivity {
         initview();
         buildData();
         setRecycler();
-
-
-
     }
 
 
