@@ -201,7 +201,7 @@
             android:layout_height="25dp"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="70dp"
-            app:srcCompat="@drawable/ic_system_update" />
+            app:srcCompat="@drawable/ic__4" />
 
     </LinearLayout>
 
