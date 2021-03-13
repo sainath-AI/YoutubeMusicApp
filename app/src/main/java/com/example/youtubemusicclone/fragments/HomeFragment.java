@@ -2,59 +2,40 @@ package com.example.youtubemusicclone.fragments;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.youtubemusicclone.R;
+import com.example.youtubemusicclone.recyclerClasses.FavouriteAdapter;
+import com.example.youtubemusicclone.recyclerClasses.FavouriteModel;
+import com.example.youtubemusicclone.recyclerClasses.NewReleasesAdapter;
+import com.example.youtubemusicclone.recyclerClasses.NewReleasesModel;
+import com.example.youtubemusicclone.recyclerClasses.WelcomeAdapter;
+import com.example.youtubemusicclone.recyclerClasses.WelcomeModel;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link HomeFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import java.util.ArrayList;
+import java.util.List;
+
 public class HomeFragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+    private RecyclerView mRvFavourites;
+    private RecyclerView mRvWelcome;
+    private RecyclerView mRvNewReleases;
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+    private List<WelcomeModel> welcomeModelList = new ArrayList<>();
+    private List<NewReleasesModel> newModelList = new ArrayList<>();
+    private List<FavouriteModel> favModelList = new ArrayList<>();
+
 
     public HomeFragment() {
         // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment HomeFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static HomeFragment newInstance(String param1, String param2) {
-        HomeFragment fragment = new HomeFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
     }
 
     @Override
@@ -62,5 +43,65 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_home, container, false);
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        mRvFavourites = view.findViewById(R.id.rvYourFavourites);
+        mRvWelcome = view.findViewById(R.id.rvWelcome);
+        mRvNewReleases = view.findViewById(R.id.rvNewReleases);
+        setRecyclerData();
+        buildRecyclerData();
+    }
+
+    private void setRecyclerData() {
+        LinearLayoutManager welcomeLayoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false);
+        mRvWelcome.setLayoutManager(welcomeLayoutManager);
+        WelcomeAdapter welcomeAdapter = new WelcomeAdapter(welcomeModelList);
+        mRvWelcome.setAdapter(welcomeAdapter);
+
+        LinearLayoutManager newLayoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false);
+        mRvNewReleases.setLayoutManager(newLayoutManager);
+        NewReleasesAdapter newReleasesAdapter = new NewReleasesAdapter(newModelList);
+        mRvNewReleases.setAdapter(newReleasesAdapter);
+
+        LinearLayoutManager favLayoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false);
+        mRvFavourites.setLayoutManager(favLayoutManager);
+        FavouriteAdapter favAdapter = new FavouriteAdapter(favModelList);
+        mRvFavourites.setAdapter(favAdapter);
+    }
+
+    private void buildRecyclerData() {
+        welcomeModelList.add(new WelcomeModel(R.drawable.billie_eilish_1, "Billie Eilish", "39.1M subscribers"));
+        welcomeModelList.add(new WelcomeModel(R.drawable.shawn_mendes_1, "Shawn Mandes", "27.7M subscribers"));
+        welcomeModelList.add(new WelcomeModel(R.drawable.ariana_grande_1, "Ariana Grande", "47.3M subscribers"));
+        welcomeModelList.add(new WelcomeModel(R.drawable.arijit, "Arijit Singh", "1.55M subscribers"));
+        welcomeModelList.add(new WelcomeModel(R.drawable.imagine_dragnons1, "Imagine Dragons", "24.6M subscribers"));
+        welcomeModelList.add(new WelcomeModel(R.drawable.bdadshah, "Badshah", "1.87M subscribers"));
+        welcomeModelList.add(new WelcomeModel(R.drawable.dua_lipa_1, "Dua Lipa", "17M subscribers"));
+        welcomeModelList.add(new WelcomeModel(R.drawable.drake_1, "Drake", "24.1 subscribers"));
+        welcomeModelList.add(new WelcomeModel(R.drawable.ed_sheeran1, "Ed Sheeran", "47M subscribers"));
+        welcomeModelList.add(new WelcomeModel(R.drawable.maroon_5_1, "Maroon 5", "33.4M subscribers"));
+
+        newModelList.add(new NewReleasesModel(R.drawable.new_release_1, "Follow You / Cutthroat", "Single •Imagine Dragons"));
+        newModelList.add(new NewReleasesModel(R.drawable.new_release_2, "Scary House 2", "Single •Drake"));
+        newModelList.add(new NewReleasesModel(R.drawable.new_release_3, "Time To Dance", "EP •Vishal Mishra"));
+        newModelList.add(new NewReleasesModel(R.drawable.new_release_4, "Ilomilo", "Single •Billie Eilish"));
+        newModelList.add(new NewReleasesModel(R.drawable.new_release_5, "Songs of Love", "Album •AMit Trivedi"));
+        newModelList.add(new NewReleasesModel(R.drawable.new_release_6, "PLAYBOY", "Album •Tory Lanez"));
+
+        favModelList.add(new FavouriteModel(R.drawable.ed_sheeran_2, "Ed Sheeran", "47M subscribers"));
+        favModelList.add(new FavouriteModel(R.drawable.arijit, "Arijit Singh", "1.55M subscribers"));
+        favModelList.add(new FavouriteModel(R.drawable.billie_eilish_2, "Billie Eilish", "39.1M subscribers"));
+        favModelList.add(new FavouriteModel(R.drawable.maroon_5_2, "Maroon 5", "33.4M subscribers"));
+        favModelList.add(new FavouriteModel(R.drawable.ariana_grande_2, "Ariana Grande", "47.3M subscribers"));
+        favModelList.add(new FavouriteModel(R.drawable.shawn_mendes_2, "Shawn Mandes", "27.7M subscribers"));
+        favModelList.add(new FavouriteModel(R.drawable.imagine_dragnons2, "Imagine Dragons", "24.6M subscribers"));
+        favModelList.add(new FavouriteModel(R.drawable.dua_lipa_2, "Dua Lipa", "17M subscribers"));
+        favModelList.add(new FavouriteModel(R.drawable.bdadshah, "Badshah", "1.87M subscribers"));
+        favModelList.add(new FavouriteModel(R.drawable.drake_2, "Drake", "24.1 subscribers"));
+
+
     }
 }

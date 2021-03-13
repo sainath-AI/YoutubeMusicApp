@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView mTvFocus;
     private TextView mTvRelax;
     private TextView mTvCommute;
+    private ImageView mIvAcIcon;
     FragmentManager fragmentManager;
 
 
@@ -62,6 +64,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mTvFocus=findViewById(R.id.tvFocus);
         mTvRelax=findViewById(R.id.tvRelax);
         mTvCommute=findViewById(R.id.tvCommute);
+        mIvAcIcon = findViewById(R.id.imageView3);
+
         fragmentManager=getSupportFragmentManager();
         mUvSearch.setOnClickListener(this);
         mIvHome.setOnClickListener(this);
@@ -72,6 +76,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mTvFocus.setOnClickListener(this);
         mTvRelax.setOnClickListener(this);
         mTvCommute.setOnClickListener(this);
+
+        mIvAcIcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AccountActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 

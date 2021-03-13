@@ -12,4 +12,24 @@
     <string name="music_premium1">Get Music Premium to listen ad-free,</string>
     <string name="music_premium2"><![CDATA[offline & with your screen off]]></string>
     <string name="youtube_music">YouTube Music</string>
+    <string name="don_t_worry">Don\'t worry about your music stopping when you lock your screen or use other apps</string>
+    <string name="download_and_go">Download and go</string>
+    <string name="listen">Listen to the world of music without ads</string>
+    <string name="ad_free_music">Ad-free music</string>
+    <string name="don_t_worry_about_your_music_stopping_when_you_lock_your_screen_or_use_other_apps">Don\'t worry about your music stopping when you lock your screen or use other apps</string>
+    <string name="listen_in_the_background">Listen in the background</string>
+    <string name="restrictions">Restrictions apply. Learn more here.</string>
+    <string name="or_save_money_with_a_family_or_student_plan">Or save money with a family or student plan.</string>
+    <string name="prepaid_and_subscription_plans_available_n_prices_start_at_99_00_month_n_free_trials_available_with_subscription_plan_only">Prepaid and subscription plans available.\n Prices start at ₹99.00/ month.\n Free trials available with subscription plan only</string>
+    <string name="get_music_premium">Get Music Premium</string>
+    <string name="help_feedback"><![CDATA[Help & feedback]]></string>
+    <string name="settings">Settings</string>
+    <string name="switch_account">Switch Account</string>
+    <string name="history">History</string>
+    <string name="manage_your_google_account">Manage your Google Account</string>
+    <string name="andrew_t_gmail_com">andrew.T@gmail.com</string>
+    <string name="thomas_andrew">Thomas Andrew</string>
+    <string name="account">Account</string>
+    <string name="enjoy_as_free_music">Enjoy as-free music, listen in audio mode, and play music offline.</string>
+    <string name="new_releases">New Releases</string>
 </resources>

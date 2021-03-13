@@ -25,12 +25,10 @@
                 <TextView
                     android:layout_marginTop="150dp"
                     android:id="@+id/ivYoutubeMusic"
+                    android:paddingLeft="@dimen/dp_65dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/carrois_gothic"
-                    android:drawableStart="@drawable/logo_54"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/sp_35sp" />
+                    android:drawableStart="@drawable/logo_54" />
 
                 <TextView
                     android:layout_toEndOf="@id/ivYoutubeMusic"
@@ -41,9 +39,10 @@
                     android:fontFamily="@font/carrois_gothic"
                     android:textAlignment="center"
                     android:text="@string/youtube_music"
+                    android:padding="@dimen/dp_2dp"
                     android:textStyle="bold"
                     android:textColor="@color/white"
-                    android:textSize="@dimen/sp_35sp" />
+                    android:textSize="@dimen/sp_38sp" />
 
             </RelativeLayout>
 
@@ -72,10 +71,9 @@
 
             <Button
                 android:id="@+id/btnGetPremium"
-                android:text="Get Music Premium"
+                android:text="@string/get_music_premium"
                 android:layout_margin="@dimen/dp_18dp"
                 android:background="@drawable/rect_layout"
-
                 android:textSize="@dimen/sp_18sp"
                 android:paddingLeft="@dimen/dp_20dp"
                 android:paddingRight="@dimen/dp_20dp"
@@ -86,7 +84,7 @@
             <TextView
                 android:layout_marginTop="@dimen/dp_25dp"
                 android:id="@+id/tvExtraDetails"
-                android:text="Prepaid and subscription plans available.\n Prices start at ₹99.00/ month.\n Free trials available with subscription plan only"
+                android:text="@string/prepaid_and_subscription_plans_available_n_prices_start_at_99_00_month_n_free_trials_available_with_subscription_plan_only"
                 android:textColor="@color/white"
                 android:layout_gravity="center"
                 android:layout_marginBottom="@dimen/dp_14dp"
@@ -99,23 +97,39 @@
 
             <TextView
                 android:background="@color/black"
-                android:text="Or save money with a family or student plan."
+                android:text="@string/or_save_money_with_a_family_or_student_plan"
                 android:textColor="@color/white"
                 android:textSize="@dimen/dp_16dp"
                 android:padding="@dimen/dp_9dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
+            <View
+                android:id="@+id/view1"
+                android:layout_marginLeft="@dimen/dp_4dp"
+                android:layout_marginRight="@dimen/dp_4dp"
+                android:background="#393838"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
             <TextView
                 android:id="@+id/tvRestrictions"
                 android:background="@color/black"
-                android:text="Restrictions apply. Learn more here."
+                android:text="@string/restrictions"
                 android:textColor="@color/white"
                 android:textSize="@dimen/dp_12dp"
                 android:drawableEnd="@drawable/ic_arrow_down"
                 android:padding="@dimen/dp_15dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_marginLeft="@dimen/dp_4dp"
+                android:layout_marginRight="@dimen/dp_4dp"
+                android:background="#393838"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
 
             <RelativeLayout
                 android:background="@color/black"
@@ -136,9 +150,9 @@
                     android:id="@+id/tvHeadphones"
                     android:layout_toEndOf="@+id/ivHeadphones"
                     android:background="@color/black"
-                    android:text="Listen in the background"
+                    android:text="@string/listen_in_the_background"
                     android:textColor="@color/white"
-                    android:textSize="@dimen/sp_24sp"
+                    android:textSize="@dimen/sp_22sp"
                     android:paddingTop="@dimen/dp_10dp"
                     android:paddingLeft="3dp"
                     android:paddingBottom="@dimen/dp_10dp"
@@ -148,7 +162,7 @@
                 <TextView
                     android:id="@+id/tvHeadphonesBottom"
                     android:layout_marginTop="@dimen/dp_24dp"
-                    android:text="Don't worry about your music stopping when you lock your screen or use other apps"
+                    android:text="@string/don_t_worry_about_your_music_stopping_when_you_lock_your_screen_or_use_other_apps"
                     android:textSize="@dimen/sp_15sp"
                     android:textColor="@color/white"
                     android:paddingTop="@dimen/dp_16dp"
@@ -174,7 +188,7 @@
                     android:layout_toEndOf="@+id/ivHeadphones"
                     android:background="@color/black"
                     android:layout_below="@+id/tvHeadphonesBottom"
-                    android:text="Ad-free music"
+                    android:text="@string/ad_free_music"
                     android:textColor="@color/white"
                     android:textSize="@dimen/sp_24sp"
                     android:paddingTop="@dimen/dp_24dp"
@@ -187,7 +201,7 @@
                     android:id="@+id/tvPlayBottom"
                     android:layout_marginTop="@dimen/dp_24dp"
                     android:layout_below="@+id/tvHeadphonesBottom"
-                    android:text="Listen to the world of music without ads"
+                    android:text="@string/listen"
                     android:textSize="@dimen/sp_15sp"
                     android:textColor="@color/white"
                     android:paddingTop="@dimen/dp_28dp"
@@ -213,9 +227,9 @@
                     android:layout_toEndOf="@+id/ivHeadphones"
                     android:background="@color/black"
                     android:layout_below="@+id/tvPlayBottom"
-                    android:text="Download and go"
+                    android:text="@string/download_and_go"
                     android:textColor="@color/white"
-                    android:textSize="@dimen/sp_24sp"
+                    android:textSize="@dimen/sp_22sp"
                     android:paddingTop="@dimen/dp_24dp"
                     android:paddingLeft="4dp"
                     android:paddingBottom="@dimen/dp_10dp"
@@ -226,7 +240,7 @@
                     android:id="@+id/tvDownloadBottom"
                     android:layout_marginTop="@dimen/dp_24dp"
                     android:layout_below="@+id/tvPlayBottom"
-                    android:text="Don't worry about your music stopping when you lock your screen or use other apps"
+                    android:text="@string/don_t_worry"
                     android:textSize="@dimen/sp_15sp"
                     android:textColor="@color/white"
                     android:paddingTop="@dimen/dp_28dp"
@@ -237,6 +251,156 @@
                     android:layout_height="wrap_content"/>
 
             </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/llBottomImages1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginLeft="@dimen/dp_4dp"
+                android:layout_marginRight="@dimen/dp_4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvBanner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_45dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="@dimen/dp_6dp"
+                    android:text="Keep music playing with the screen locked"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_20sp" />
+
+                <TextView
+                    android:id="@+id/tvBottom1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="Turn off the screen, use other apps, all while your music keeps playing."
+                    android:paddingLeft="@dimen/dp_12dp"
+                    android:paddingRight="@dimen/dp_12dp"
+                    android:layout_marginBottom="@dimen/dp_45dp"
+                    android:textColor="#787676"
+                    android:textSize="@dimen/sp_14sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:src="@drawable/utube1"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/llBottomImages2"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginLeft="@dimen/dp_4dp"
+                android:layout_marginRight="@dimen/dp_4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvBanner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_45dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="@dimen/dp_14dp"
+                    android:text="No ads, No interruptions."
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_20sp" />
+
+                <TextView
+                    android:id="@+id/tvBottom2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="Easily explore the world of music without any interruptions."
+                    android:paddingLeft="@dimen/dp_12dp"
+                    android:paddingRight="@dimen/dp_12dp"
+                    android:layout_marginBottom="@dimen/dp_45dp"
+                    android:textColor="#787676"
+                    android:textSize="@dimen/sp_14sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:src="@drawable/utube2"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/llBottomImages3"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginLeft="@dimen/dp_4dp"
+                android:layout_marginRight="@dimen/dp_4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvBanner3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_45dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="@dimen/dp_12dp"
+                    android:text="Download your favorite tracks."
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_20sp" />
+
+                <TextView
+                    android:id="@+id/tvBottom3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="No connection? No problem. Take your songs, albums and playlists offline."
+                    android:paddingLeft="@dimen/dp_12dp"
+                    android:paddingRight="@dimen/dp_12dp"
+                    android:layout_marginBottom="@dimen/dp_45dp"
+                    android:textColor="#787676"
+                    android:textSize="@dimen/sp_14sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:src="@drawable/utube3"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvHaveQuestions"
+                android:text="Have other questions?"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_18sp"
+                android:paddingLeft="@dimen/dp_10dp"
+                android:background="@color/black"
+                android:paddingTop="@dimen/dp_16dp"
+                android:paddingBottom="@dimen/dp_16dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvVisitHelp"
+                android:text="Visit the Youtube Help Center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_18sp"
+                android:paddingLeft="@dimen/dp_10dp"
+                android:background="@color/black"
+                android:paddingTop="@dimen/dp_16dp"
+                android:paddingBottom="@dimen/dp_40dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
 
         </LinearLayout>
 

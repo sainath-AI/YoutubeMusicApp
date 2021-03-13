@@ -2,7 +2,10 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel" />
+        <device id="pixel_xl" />
+      </config>
     </shared>
   </component>
   <component name="AndroidLogFilters">
@@ -29,40 +32,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a8ce959-4f65-48df-ae9d-a6972fa73fc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/youtubemusicclone/fragments/CommuteFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/youtubemusicclone/fragments/ExploreFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/youtubemusicclone/fragments/FocusFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/youtubemusicclone/fragments/HomeFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/youtubemusicclone/fragments/LibraryFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/youtubemusicclone/fragments/RelaxFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/youtubemusicclone/fragments/UpgradeFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/youtubemusicclone/fragments/WorkoutFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_explore.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_house_black_silhouette_without_door.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_loupe.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_profile_user.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_system_update.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/roundbackground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/youtubelogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_commute.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_explore.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_focus.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_relax.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_workout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/youtubemusicclone/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/youtubemusicclone/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/youtubemusicclone/UpgradeFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/youtubemusicclone/fragments/ExploreFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/youtubemusicclone/fragments/ExploreFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/youtubemusicclone/fragments/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/youtubemusicclone/fragments/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_profile_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_profile_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rect_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rect_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_explore.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_explore.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_upgrade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_upgrade.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
     </list>
@@ -80,9 +65,35 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="YoutubeMusicClone" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="YoutubeMusicClone" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="YoutubeMusicClone" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="YoutubeMusicClone" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="install" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -94,6 +105,8 @@
       <list>
         <option value="valueResourceFile" />
         <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -112,18 +125,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/emulator-5554/sdcard/AzRecorderFree" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.148748680">
-      <recent name="com.example.youtubemusicclone" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kingk\Desktop\YoutubeMusicApp(10-03-2021)\YoutubeMusicApp\app\src\main\res\drawable" />
     </key>
+    <key name="android.template.148748680">
+      <recent name="com.example.youtubemusicclone" />
+    </key>
+    <key name="android.template.-72856038">
+      <recent name="com.example.youtubemusicclone" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -188,6 +204,30 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YoutubeMusicApp:app [uninstallAll]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="uninstallAll" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.YoutubeMusicApp:app [uninstallAll]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -212,44 +252,53 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615361112664">
+    <state x="535" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1615545644255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615361112664" />
-    <state x="336" y="271" key="AndroidCreateResourceFileDialog" timestamp="1615366130572">
+    <state x="535" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1615545644255" />
+    <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615545108783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="336" y="271" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615366130572" />
-    <state x="1123" y="260" key="AndroidCreateXmlResourceDialog" timestamp="1615364158286">
+    <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615545108783" />
+    <state x="348" y="269" key="AndroidCreateResourceDirectoryDialog" timestamp="1615481225103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1123" y="260" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615364158286" />
-    <state x="361" y="221" key="Downloadable.Font.Dialog.Size" timestamp="1615361880625">
+    <state x="348" y="269" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615481225103" />
+    <state x="336" y="271" key="AndroidCreateResourceFileDialog" timestamp="1615549168042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="361" y="221" key="Downloadable.Font.Dialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1615361880625" />
-    <state x="689" y="218" key="FileChooserDialogImpl" timestamp="1615380419988">
+    <state x="336" y="271" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615549168042" />
+    <state x="1123" y="260" key="AndroidCreateXmlResourceDialog" timestamp="1615549302833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="689" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615380419988" />
-    <state width="1863" height="627" key="GridCell.Tab.0.bottom" timestamp="1615365173228">
+    <state x="1123" y="260" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615549302833" />
+    <state x="361" y="221" key="Downloadable.Font.Dialog.Size" timestamp="1615438501015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="627" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615365173228" />
-    <state width="1863" height="627" key="GridCell.Tab.0.center" timestamp="1615365173228">
+    <state x="361" y="221" key="Downloadable.Font.Dialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1615438501015" />
+    <state x="689" y="218" key="FileChooserDialogImpl" timestamp="1615554954198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="627" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615365173228" />
-    <state width="1863" height="627" key="GridCell.Tab.0.left" timestamp="1615365173228">
+    <state x="689" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615554954198" />
+    <state width="1863" height="627" key="GridCell.Tab.0.bottom" timestamp="1615545913666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="627" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615365173228" />
-    <state width="1863" height="627" key="GridCell.Tab.0.right" timestamp="1615365173228">
+    <state width="1863" height="627" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615545913666" />
+    <state width="1863" height="627" key="GridCell.Tab.0.center" timestamp="1615545913666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="627" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615365173228" />
+    <state width="1863" height="627" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615545913666" />
+    <state width="1863" height="627" key="GridCell.Tab.0.left" timestamp="1615545913666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1863" height="627" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615545913666" />
+    <state width="1863" height="627" key="GridCell.Tab.0.right" timestamp="1615545913666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1863" height="627" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615545913666" />
     <state x="115" y="76" key="MergeDialog" timestamp="1615384136969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -263,9 +312,9 @@
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1615311698995" />
     <state x="346" y="72" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1615364387119" />
-    <state x="540" y="288" key="chooseDestDirectoryDialog" timestamp="1615361597834">
+    <state x="540" y="288" key="chooseDestDirectoryDialog" timestamp="1615549149905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="288" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615361597834" />
+    <state x="540" y="288" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615549149905" />
   </component>
 </project>
